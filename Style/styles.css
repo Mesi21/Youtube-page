@@ -2,6 +2,7 @@
 	margin: none;
 	padding: none;
 }
+
 body{
 	width: 100%;
 	padding: none;
@@ -9,6 +10,9 @@ body{
 }
 
 .nav{
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
 	background-color: yellow;
 	margin: none;
@@ -16,6 +20,9 @@ body{
 	border: none;
 }
 #nav-bar ul{
+	padding: none;
+	background-color: blue;
+	margin: none;
 	list-style: none;
 	width: 100%;
 }
@@ -24,13 +31,16 @@ body{
 	flex-direction: row;
 	width: 100%;
 	margin: none;
+	padding: none;
 }
 #first {
-	width: ;
+	margin: none;
+	border: none;
+	padding: 0px  5px 0px 8px;
 	display: flex;
 	flex-direction: row; 
 	justify-content: flex-start;
-	background-color:green;
+	background-color: green;
 	align-items: center;
 }
 #second{
@@ -46,6 +56,8 @@ body{
 }
 #third li{
 	align-content: space-around;
+	padding-left: 0px;
+	margin: 0px;
 }
 #lines{
 	width: 50px;
@@ -69,8 +81,12 @@ body{
 	padding: 0px 10px ;
 }
 #magnyfying-glass{
-	height: 30px;
-	width: 25px;
+	background-color: red;
+	padding: 5px;
+	height: 15px;
+	width: 15px;
+	border: 3px solid grey;
+;
 }
 #bubble{
 	height: 20px;
@@ -88,5 +104,12 @@ body{
 	padding: 0px 10px ;
 }
 #search{
-	width: 350px;
+	width: 500px;
+	height: 30px;
+	padding-left: 8px;
+	padding-right: 8px; 
+	background-image: url(../Media/keyboard.png);
+	background-size: 20px 30px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
