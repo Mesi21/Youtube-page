@@ -15,14 +15,12 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: yellow;
 	margin: none;
 	padding: none;
 	border: none;
 }
 #nav-bar ul{
 	padding: none;
-	background-color: blue;
 	margin: none;
 	list-style: none;
 	width: 100%;
@@ -41,7 +39,6 @@ body{
 	display: flex;
 	flex-direction: row; 
 	justify-content: flex-start;
-	background-color: green;
 	align-items: center;
 }
 #second{
@@ -73,7 +70,6 @@ body{
 	padding: 0px 10px ;
 	height: 45px;
 	width: 45px;
-	background-color: blueviolet;
 
 } 
 #dots{
@@ -82,7 +78,6 @@ body{
 	padding: 0px 10px ;
 }
 #magnyfying-glass{
-	background-color: red;
 	padding: 5px;
 	height: 15px;
 	width: 15px;
@@ -120,7 +115,6 @@ p {
 
 #core{
 	width: 100%;
-	background-color: aqua;
 	padding-top: 100px;
 	display: flex;
 }
@@ -130,6 +124,27 @@ p {
 	justify-content: flex-start;
 }
 #suggestions{
-	width: 35%;
+	width: 30%;
 	justify-content: flex-end;
+}
+#suggestions table img{
+	height: 110px;
+	width: 190px;
+
+}
+table {
+	padding: 18px 0px 0px 20px ;
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 20px;
+}
+table h3{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	margin: none;
+}
+table h4 {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 10px;
+	margin: none;
 }
