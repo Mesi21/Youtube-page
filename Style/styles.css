@@ -5,20 +5,27 @@
 body{
 	width: 100%;
 }
-#nav-bar img{
-	height: 25px;
-	width: 25px;
 
+.nav{
+	width: 100%;
+	background-color: yellow;
+	margin: none;
+	padding: none;
 }
-#first {
-	display: flex;
-	flex-direction: row; 
-	float: left;
+#nav-bar ul{
+	list-style: none;
+	width: 100%;
 }
 #nav-bar{
 	display: flex;
 	flex-direction: row;
-	width: auto;
+	width: 100%;
+}
+#first {
+	display: flex;
+	flex-direction: row; 
+	justify-content: flex-start;
+	background-color: green;
 }
 #second{
 	display: flex;
@@ -27,11 +34,19 @@ body{
 #third{
 	display: flex;
 	flex-direction: row;
-	float: right;
+	justify-content: flex-end;
 }
-#nav-bar ul{
-	list-style: none;
+#third li{
+	align-content: space-around;
 }
+#lines{
+	width: 25px;
+	height: 25px;
+	} 
+#youtube-home{
+	width: 35px;
+	height: 25px;
+	} 
 #camera{
-	
-}
+	width: 25px;
+	} 
