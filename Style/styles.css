@@ -4,6 +4,8 @@
 }
 body{
 	width: 100%;
+	padding: none;
+	margin: none;
 }
 
 .nav{
@@ -11,6 +13,7 @@ body{
 	background-color: yellow;
 	margin: none;
 	padding: none;
+	border: none;
 }
 #nav-bar ul{
 	list-style: none;
@@ -20,33 +23,70 @@ body{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	margin: none;
 }
 #first {
+	width: ;
 	display: flex;
 	flex-direction: row; 
 	justify-content: flex-start;
-	background-color: green;
+	background-color:green;
+	align-items: center;
 }
 #second{
 	display: flex;
 	flex-direction: row; 
+	align-items: center;
 }
 #third{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: center;
 }
 #third li{
 	align-content: space-around;
 }
 #lines{
-	width: 25px;
-	height: 25px;
-	} 
+	width: 50px;
+	height: 35px;
+	padding: 0px 15px 0px 0px;
+} 
 #youtube-home{
-	width: 35px;
-	height: 25px;
-	} 
+	width: 85px;
+	height: 50px;
+} 
 #camera{
+	padding: 0px 10px ;
+	height: 45px;
+	width: 45px;
+	background-color: blueviolet;
+
+} 
+#dots{
+	height: 20px;
+	width: 35px;
+	padding: 0px 10px ;
+}
+#magnyfying-glass{
+	height: 30px;
 	width: 25px;
-	} 
+}
+#bubble{
+	height: 20px;
+	width: 18px;
+	padding: 0px 10px ;
+}
+#bell{
+	height: 25px;
+	width: 22px;
+	padding: 0px 10px ;
+}
+#account{
+	height: 40px;
+	width: 35px;
+	padding: 0px 10px ;
+}
+#search{
+	width: 350px;
+}
