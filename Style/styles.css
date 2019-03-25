@@ -1,0 +1,37 @@
+*{
+	margin: none;
+	padding: none;
+}
+body{
+	width: 100%;
+}
+#nav-bar img{
+	height: 25px;
+	width: 25px;
+
+}
+#first {
+	display: flex;
+	flex-direction: row; 
+	float: left;
+}
+#nav-bar{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+#second{
+	display: flex;
+	flex-direction: row; 
+}
+#third{
+	display: flex;
+	flex-direction: row;
+	float: right;
+}
+#nav-bar ul{
+	list-style: none;
+}
+#camera{
+	
+}
