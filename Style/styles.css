@@ -18,6 +18,7 @@ body{
 	margin: none;
 	padding: none;
 	border: none;
+	background-color: white;
 }
 #nav-bar ul{
 	padding: none;
@@ -123,6 +124,15 @@ p {
 	padding: 20px 20px;
 	justify-content: flex-start;
 }
+#likes{
+	display: flex;
+	vertical-align: center;
+	justify-content: space-between;
+}
+#likes p{
+	vertical-align: center;
+	padding-top: 7px;
+}
 #suggestions{
 	width: 30%;
 	justify-content: flex-end;
@@ -147,4 +157,5 @@ table h4 {
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 10px;
 	margin: none;
+	font-weight: normal;
 }
